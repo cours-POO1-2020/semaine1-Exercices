@@ -4,14 +4,14 @@ using System.Threading;
 
 namespace BankAccountNS
 {
-
+    //Test my changes
     public class Program
     { 
         public const int MaxAmount = 100;
 
         public static void Main(string[] args)
         {
-
+            //here is the main change
             BankAccount ba = new BankAccount("Mr. Bryan Walton", 12.25);
             Random rand = new Random();
             for (int i = 0; i < 10 ; i++)
